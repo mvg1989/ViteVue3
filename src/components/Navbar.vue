@@ -1,20 +1,32 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-1 text-center fw-bold border border-1 rounded-pill gradwr">
-        <span>mvg1989 Productions</span>
+  <div class="container ms-2">
+    <div class="row gap-2 mt-2">
+      <div class="col-1">
+        <RouterLink :to="{ name: 'Home' }">
+          <!-- <span class="text-center fw-bold border border-1 rounded gradwr">mvg1989</span> -->
+          <div class="col-12 fs-4 text-center fw-bold border border-1 rounded gradwr">Logo</div>
+        </RouterLink>
       </div>
-      <div class="col-lg-1 btn btn-primary">
-        <RouterLink :to="{ name: 'Home' }">Home</RouterLink>
+      <div class="col-1">
+        <RouterLink :to="{ name: 'Home' }">
+          <!-- <span class="btn btn-primary"> Home</span> -->
+          <div class="col-12 btn btn-primary">Home</div>
+        </RouterLink>
       </div>
-      <div class="col-lg-1 btn btn-primary">
-        <RouterLink :to="{ name: 'Business' }">Business</RouterLink>
+      <div class="col-1">
+        <RouterLink :to="{ name: 'Business' }">
+          <div class="col-12 btn btn-primary">Business</div>
+        </RouterLink>
       </div>
-      <div class="col-lg-1 btn btn-primary">
-        <RouterLink :to="{ name: 'Contact' }">Contact</RouterLink>
+      <div class="col-1">
+        <RouterLink :to="{ name: 'Contact' }">
+          <div class="col-12 btn btn-primary">Contact</div>
+        </RouterLink>
       </div>
-      <div class="col-lg-1 btn btn-primary">
-        <RouterLink :to="{ name: 'Aboutus' }">Aboutus</RouterLink>
+      <div class="col-1">
+        <RouterLink :to="{ name: 'Aboutus' }">
+          <div class="col-12 btn btn-primary">Aboutus</div>
+        </RouterLink>
       </div>
     </div>
   </div>

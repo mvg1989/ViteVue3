@@ -1,10 +1,10 @@
 <template>
-  <div class="container">
+  <div class="container ">
     <div class="row">
       <div class="col-1">
         <img src="../assets/image1.jpg" alt="photo1" class="img">
       </div>
-      <div class="col-9 mt-3">
+      <div class="col-9">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id accumsan magna. Nunc elementum metus
           ac ipsum scelerisque, a vehicula orci pretium. Phasellus efficitur dignissim justo, vitae tincidunt lorem
@@ -50,7 +50,7 @@
           lacinia mauris. Nunc sed maximus erat.
         </p>
       </div>
-      <div class="col-1">
+      <div class="col-1 mt-3">
         <img src="../assets/image2.jpg" alt="photo1" class="img2">
       </div>
     </div>
@@ -72,7 +72,8 @@
   height: 100%;
 }
 
-.img2{
-  width: 150%;
+.img2 {
+  width: 170%;
+  height: 85%;
 }
 </style>
