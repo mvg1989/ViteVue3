@@ -4,7 +4,7 @@
       <div class="col-1">
         <RouterLink :to="{ name: 'Home' }">
           <!-- <span class="text-center fw-bold border border-1 rounded gradwr">mvg1989</span> -->
-          <div class="col-12 fs-4 text-center fw-bold border border-1 rounded gradwr">Logo</div>
+          <div class="col-12 fs-4 text-center fw-bold border border-1 rounded gradwr">mvg1989</div>
         </RouterLink>
       </div>
       <div class="col-1">
